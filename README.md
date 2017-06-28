@@ -12,6 +12,7 @@ The whole process is automatic, you just need to input your y and X and set some
 For example:
 
 model = xgb_tuning(X, y)
+
 model.train()
 
 Then, you will get a dictionary of optimal parameters and an optimal xgboost tree model.
